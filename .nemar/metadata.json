@@ -1,7 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "validated",
+  "pipeline_stage": "enriched",
   "title": "A dataset recording joint EEG-fMRI during affective music listening ",
+  "description": "A joint EEG-fMRI dataset acquired from 21 healthy adult participants during affective music listening. Participants listened to music stimuli designed to elicit different emotional responses and provided self-reported affective state ratings. This multimodal neuroimaging dataset enables investigation of the neural correlates of emotional responses to music across both electrophysiological and hemodynamic measures.",
+  "methods_description": "Data were collected using simultaneous EEG-fMRI recording from 21 healthy adult participants while they listened to music stimuli selected to produce varying affective responses. Participants self-reported their felt affective states during the listening task. The experiment and detailed acquisition parameters are described in Daly et al. (2019).",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -15,12 +17,30 @@
     "Eduardo Miranda": {},
     "Slawomir J. Nasuto": {}
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds002725.v1.0.0",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "EEG"
     },
+    {
+      "term": "fMRI"
+    },
+    {
+      "term": "simultaneous EEG-fMRI"
+    },
+    {
+      "term": "music listening"
+    },
+    {
+      "term": "emotion recognition"
+    },
+    {
+      "term": "affective neuroscience"
+    },
+    {
+      "term": "multimodal neuroimaging"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on002725",
       "identifier_type": "URL",
@@ -35,16 +55,21 @@
       "identifier": "10.1038/s41598-019-45105-2",
       "identifier_type": "DOI",
       "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds002725.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
+  "resource_type_specific": "Structural MRI Dataset",
   "modalities": [
     "anat",
     "eeg",
     "func"
   ],
-  "resource_type_specific": "Structural MRI Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "16.4 GB (467 files)"
   ],
   "formats": [
     ".edf",
@@ -56,32 +81,8 @@
     ".mp3",
     ".nfs9e496b7eb5e78e49000006e0",
     ".tsv",
-    ".wav"
+    ".wav",
+    ".yml"
   ],
-  "description": "A joint EEG-fMRI dataset acquired in 2016 from 21 healthy adult participants during affective music listening. Participants listened to music stimuli designed to elicit varying emotional responses and provided self-reported affective state ratings. This multimodal neuroimaging dataset enables investigation of the neural correlates of emotional responses to music across both electrophysiological and hemodynamic measures. Published in 2019.",
-  "methods_description": "Data were collected in 2016 using simultaneous EEG-fMRI recording while 21 healthy adult participants listened to music stimuli selected to produce different affective responses. Participants self-reported their felt affective states during the listening task.",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "fMRI"
-    },
-    {
-      "term": "music"
-    },
-    {
-      "term": "emotion"
-    },
-    {
-      "term": "affective neuroscience"
-    },
-    {
-      "term": "multimodal neuroimaging"
-    },
-    {
-      "term": "simultaneous EEG-fMRI"
-    }
-  ],
-  "source_hash": "ba9f6144032f3229eded04b1dc42f36686b47f82ea246be6e2c19e99e1e3eabd"
+  "source_hash": "35ec7dba16b6db71e84b483dc3b94dddabd6b46aefdc621120d96fa83b2865ca"
 }
