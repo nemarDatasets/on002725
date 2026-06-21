@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on002725-blue)](https://doi.org/10.82901/nemar.on002725)
+
 Dataset: Joint EEG-fMRI recording during affective music listening.
 
 This dataset was recorded from 21 healthy adult participants viia a joint EEG-fMRI modality while they
