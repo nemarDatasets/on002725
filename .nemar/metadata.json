@@ -1,0 +1,37 @@
+{
+  "version": "2.0",
+  "dataset_id": "on002725",
+  "source": "openneuro",
+  "source_id": "ds002725",
+  "title": "A dataset recording joint EEG-fMRI during affective music listening ",
+  "authors": {
+    "Ian Daly": {},
+    "Nicoletta Nicolaou": {},
+    "Duncan Williams": {},
+    "Faustina Hwang": {},
+    "Alexis Kirke": {},
+    "Eduardo Miranda": {},
+    "Slawomir J. Nasuto": {}
+  },
+  "license": "CC0",
+  "dataset_type": "raw",
+  "related_identifiers": [
+    {
+      "identifier": "10.18112/openneuro.ds002725.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
+    }
+  ],
+  "pipeline_stage": "seeded",
+  "bids_version": "1.0.2",
+  "recording_modality": [
+    "anat",
+    "eeg",
+    "func"
+  ],
+  "datatypes": [
+    "anat",
+    "eeg",
+    "func"
+  ]
+}
